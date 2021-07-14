@@ -53,14 +53,7 @@ nav a{
     padding-bottom: 675px;
     
 }
-.header-image{
-    /* position: absolute;
-    margin-top: 153px;
-    margin-bottom: 86px;
-    margin-right: 141px; */
-    /* height: 438px;
-    width: 153px; */
-}
+
 .copa-america{
     position: absolute;
     width: 485px;
@@ -77,6 +70,7 @@ nav a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 40%;
 }
 .half-width img{
     position: absolute;
@@ -85,6 +79,11 @@ nav a{
     left: 1299.01px;
     top: 153px;
 }
+/* .header-image{
+    position:relative;
+    top: 100px;
+    left: 5px;
+} */
 .button{
     text-decoration: none;
     padding: 10px 24px 10px 24px ;
@@ -92,8 +91,8 @@ nav a{
     background-color: #E02C6D;
 }
 .button:hover  {
-    transform: scale(1.25);
-    transition: .5s;
+    background-color: blanchedalmond;
+    color:crimson;
 }
 span{
     padding-left: 8px;
@@ -108,7 +107,7 @@ span{
 
 /* -----Football Players Style--- */
 .football-player{
-    margin-left: 180px;
+    margin-left: 210px;
     margin-right: 210px;
     display: flex;
     justify-content: center;
@@ -171,11 +170,11 @@ span{
     
 }
 .top-player:hover{
-    transform: scale(1.25);
+    transform: scale(1.05);
     transition: 2s;
 }
 .players:hover{
-    transform: scale(1.25);
+    transform: scale(1.05);
     transition: 2s;
 }
 
